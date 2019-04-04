@@ -3,11 +3,11 @@ package com.example.demo
 import com.example.demo.util.BinarySearch
 import com.example.demo.util.JWTDemo
 import spock.lang.Specification
-import spock.lang.Unroll;
+import spock.lang.Unroll
 
 class SpockBookRepositorySpecification extends Specification {
 
-    def jwt = new JWTDemo();
+    def jwt = new JWTDemo()
 
 
     def "获取一个token"(){
