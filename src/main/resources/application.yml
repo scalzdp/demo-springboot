@@ -34,11 +34,12 @@ spring:
     view:
       prefix: /WEB-INF/views/
       suffix: .jsp
+  #session 存放在Redis中 Spring-Session
   redis:
     host: localhost
     port: 6379
 
-  # spring session使用存储类型
+  #spring session使用存储类型
   session:
     store-type: redis
 
